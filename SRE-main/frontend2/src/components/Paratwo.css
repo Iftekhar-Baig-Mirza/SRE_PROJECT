@@ -1,0 +1,58 @@
+.para2{
+    display:grid;
+    padding-top: 5%;
+    grid-gap: 1%;
+    padding-bottom: 5%;
+}
+
+.para2-2,.btn2{
+    display:none;
+}
+.para2h1{
+display:table;
+text-align: center;
+font-size: 3vw;
+}
+.para2s{
+    color:rgb(0, 210, 246);
+}
+
+@media screen and (max-width: 800px) {
+    .para2{
+        display:none;
+    }
+    .para2h1{
+        display:table;
+        text-align:start;
+        font-size: 4vw;
+        }
+    .para2-2{
+        display:grid;
+        gap: 1rem;
+        grid-row-start: initial;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    .btn2 {
+        display:flex;
+        justify-content: space-around;
+        font-size: 3.5vw;
+        font-weight: 300;
+        border: none;
+        padding: 1% 1.5%;
+        border-radius: 30px;
+        background-color: rgb(0,210,246);
+        color: white;
+        transition-duration: 0.4s;
+        width:25%;
+        height: 115%;
+        text-decoration:none
+      
+      }
+      .btn2:hover {
+      
+        box-shadow: 4px 2px 4px rgb(131, 129, 129);
+        transition: all 0.3s ease-out;
+      }
+}

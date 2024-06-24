@@ -1,0 +1,39 @@
+.para1{
+    display:grid;
+    padding-top: 4%;
+    grid-gap: 1%;
+}
+.parah1-1{
+    display:table;
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 11vh;
+    }
+.parah1{
+display:table;
+text-align: center;
+font-size: 4vw;
+}
+.parap{
+    padding-top: 1.4%;
+    padding-bottom:1.4%;
+    text-align: center;
+    font-size: 1.5 vw;
+}
+.para-col{
+    display:inline;
+}
+.paras{
+    color:rgb(0, 210, 246);
+}
+.paraimg1{
+    width:98%;
+    height:90%;
+    border-radius: 15px;
+    background-color:rgb(230, 250, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
